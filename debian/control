@@ -2,7 +2,10 @@ Source: libjson-api-perl
 Section: perl
 Priority: optional
 Maintainer: Mark Buda <hermit@acm.org>
-Build-Depends: libjson-perl, debhelper (>= 8), libtest-fake-httpd-perl, libio-capture-perl, libwww-perl, libtest-pod-coverage-perl, liburi-encode-perl, perl, perl-modules
+Build-Depends: debhelper (>= 10),
+ libio-capture-perl, libjson-perl, libmodule-build-perl,
+ libtest-fake-httpd-perl, libtest-pod-coverage-perl,
+ liburi-encode-perl, libwww-perl, perl, perl-modules
 Standards-Version: 4.1.2
 Homepage: https://github.com/geofffranks/json-api
 Vcs-Git: https://github.com/quarkbuddha/json-api
