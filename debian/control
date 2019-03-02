@@ -1,0 +1,18 @@
+Source: libjson-api-perl
+Section: perl
+Priority: optional
+Maintainer: Mark Buda <hermit@acm.org>
+Build-Depends: libjson-perl, debhelper (>= 8), libtest-fake-httpd-perl, libio-capture-perl, libwww-perl, libtest-pod-coverage-perl, liburi-encode-perl, perl, perl-modules
+Standards-Version: 4.1.2
+Homepage: https://github.com/geofffranks/json-api
+Vcs-Git: https://github.com/quarkbuddha/json-api
+Vcs-Browser: https://github.com/quarkbuddha/json-api
+
+Package: libjson-api-perl
+Architecture: all
+Depends: ${misc:Depends}, perl, libjson-perl, liburi-encode-perl, libwww-perl
+Description: Module to interact with a JSON API
+ This module wraps JSON and LWP::UserAgent to create a flexible
+ utility for accessing APIs that accept/provide JSON data.
+ .
+ It supports all the options LWP supports, including authentication.

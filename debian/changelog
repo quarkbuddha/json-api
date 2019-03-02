@@ -1,0 +1,5 @@
+libjson-api-perl (1.1.0-1) bionic; urgency=medium
+
+  * Initial packaging.
+
+ -- Mark Buda <hermit@acm.org>  Sat, 02 Mar 2019 15:29:17 -0500
