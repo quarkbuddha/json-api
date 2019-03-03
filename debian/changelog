@@ -1,3 +1,9 @@
+libjson-api-perl (1.1.0-2) bionic; urgency=medium
+
+  * Nothing important changed.
+
+ -- Mark Buda <hermit@acm.org>  Sun, 03 Mar 2019 08:19:12 -0500
+
 libjson-api-perl (1.1.0-1) bionic; urgency=medium
 
   * Initial packaging.
